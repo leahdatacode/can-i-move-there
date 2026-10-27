@@ -1,0 +1,137 @@
+
+/* Colours and general page style */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff8eb;
+    color: #173c43;
+    line-height: 1.6;
+}
+
+/* Main heading */
+
+h1 {
+    font-family: Georgia, serif;
+    font-size: 48px;
+    text-align: center;
+}
+
+/* Welcome message */
+
+p {
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Top of the page */
+
+header {
+    padding: 12px 6%;
+}
+
+.logo {
+    font-family: Georgia, serif;
+    font-weight: bold;
+    font-size: 23px;
+    text-align: left;
+}
+
+/* Welcome section */
+
+.hero {
+    min-height: 480px;
+    padding: 65px 8%;
+    text-align: center;
+
+        background-image:
+        linear-gradient(
+            rgba(12, 35, 38, 0.48),
+            rgba(12, 35, 38, 0.48)
+        ),
+        url("../images/travel-hero.webp");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.intro {
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.description {
+    max-width: 570px;
+    margin: 20px auto 30px;
+}
+
+/* Button */
+
+button {
+    padding: 14px 26px;
+    background-color: #173c43;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #285c61;
+}
+
+
+/* Text over the background image */
+
+.hero h1,
+.hero .intro,
+.hero .description,
+.hero label {
+    color: #ffffff;
+}
+
+#results {
+    display: none;
+    color: white;
+    background-color: #173c43;
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 500px;
+    border-radius: 8px;
+    text-align: center;
+}
+#results img {
+    display: block;
+    margin: 0 auto 15px;
+    max-width: 90px;
+    height: auto;
+}
+
+
+#results h2 {
+    font-family: Georgia, serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+#results h3 {
+    font-family: Georgia, serif;
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid #6b8587;
+    padding-bottom: 8px;
+    margin-top: 30px;
+}
+
+#results a {
+    display: block;
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+}
